@@ -1,0 +1,130 @@
+.reviews-section {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fff;
+  /* background-image: url('/path/to/your/leaves.png');  */
+  background-repeat: no-repeat;
+  background-position: top left, top right, bottom left, bottom right;
+}
+
+.subtitle {
+  color: #d4b5b5;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 44px;
+  color: #680303;
+  font-family: 'Georgia', serif;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.reviews-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.review-box {
+  width: 80%;
+  border: 3px solid #680303;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  position: relative;
+}
+
+.review-box::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: 250px;
+  width: 500px;
+  height: 50px;
+  border:3px solid #680303;
+  border-top: none;
+  border-radius:0 0 20px 20px;
+  background-color: white;
+}
+
+.review-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.date {
+  font-size: 20px;
+  color: #c4a7a7;
+}
+
+.review-text {
+  font-weight: 500;
+  font-size: 30px;
+  color: #680303;
+  line-height: 40px;
+  text-align: left;
+}
+
+.show-more {
+  margin-top: 30px;
+  padding: 20px 34px;
+  background-color: #680303;
+  font-size: 30px;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.show-more:hover {
+  background-color: #a01f1f;
+}
+
+@media (max-width: 500px) {
+  .reviews-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .review-box {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .review-box::before {
+    height: 20px;
+    top: -3px;
+    left: 40%;
+    width: 200px;
+  }
+
+  .name {
+    font-size: 20px;
+  }
+
+  .date {
+    font-size: 16px;
+  }
+
+  .review-text {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .show-more {
+    font-size: 20px;
+    padding: 15px 25px;
+  }
+}

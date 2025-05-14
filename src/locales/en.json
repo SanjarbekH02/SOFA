@@ -1,0 +1,106 @@
+{
+    "aboutNav": "About Us",
+    "servicesNav": "Services",
+    "reviewsNav": "Reviews",
+    "contactsNav": "Contacts",
+    "hero": {
+        "description": {
+            "line1": "Tours in Uzbekistan and around the world.",
+            "line2": "Umrah, excursions, seaside vacations, visa support, and care at every step.",
+            "line3": "Individual approach, 24/7 support, guaranteed quality"
+        },
+        "learnMore": "Learn More"
+    },
+    "about": {
+        "title": "ABOUT US",
+        "companyName": "SOFA MARVA CHORSU",
+        "description": {
+            "line1": "SOFA MARVA CHORSU agency is a team of experienced tour managers,",
+            "line2": "ready to assist in any situation. We are always there — from the moment",
+            "line3": "you choose a tour until your return. Our mission is care, safety,",
+            "line4": "and comfort for our clients. Individual approach and flexibility are the foundation of our work."
+        },
+        "whyUs": "Why choose us:",
+        "benefits": {
+            "personalApproach": "Individual approach",
+            "paymentOptions": "Convenient payment options",
+            "trustedPartners": "Trusted partners",
+            "peaceOfMind": "Peace of mind guaranteed at every stage of the trip"
+        }
+    },
+
+    "services": {
+        "topTitle": "OUR SERVICES",
+        "mainTitle": "Comprehensive Assistance",
+
+        "externalTourism": {
+            "title": "External Tourism",
+            "point1": "Turkey, UAE, Saudi Arabia, Malaysia, Georgia, and more.",
+            "point2": "Beach vacations, excursion tours"
+        },
+
+        "internalTourism": {
+            "title": "Internal Tourism",
+            "point1": "Samarkand, Bukhara, Khiva, mountains, and more.",
+            "point2": "One-day and multi-day tours"
+        },
+
+        "umrah": {
+            "title": "Umrah",
+            "point1": "Organization of pilgrimage to Mecca and Medina",
+            "point2": "Coordination services",
+            "point3": "24/7 support during the tour"
+        },
+
+        "courses": {
+            "title": "Tour Operator Training Courses",
+            "point1": "Practical and theoretical training",
+            "point2": "Online/offline",
+            "point3": "Certificate issued"
+        },
+
+        "visa": {
+            "title": "Visa Support",
+            "point1": "Consultations on documents",
+            "point2": "Visa applications",
+            "point3": "Appointments at consulates"
+        },
+
+        "tickets": {
+            "title": "Air Tickets",
+            "point1": "Group and individual bookings",
+            "point2": "Finding optimal fares",
+            "point3": "Flexible routes"
+        }
+    },
+
+    "reviews": {
+        "topTitle": "REVIEWS",
+        "mainTitle": "Contact Us",
+        "showMore": "Show More",
+        "items": [
+            {
+                "name": "Name Surname",
+                "date": "YEAR, MONTH",
+                "text": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie mauris ut dignissim montes, eget. Hendrerit est mauris et phasellus massa. Augue mi mauris habitasse arcu, bibendum. Nunc, non tincidunt sed lectus sed montes, in felis nisl. “"
+            },
+            {
+                "name": "Name Surname",
+                "date": "YEAR, MONTH",
+                "text": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie mauris ut dignissim montes, eget. Hendrerit est mauris et phasellus massa. Augue mi mauris habitasse arcu, bibendum. Nunc, non tincidunt sed lectus sed montes, in felis nisl. “"
+            },
+            {
+                "name": "Name Surname",
+                "date": "YEAR, MONTH",
+                "text": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie mauris ut dignissim montes, eget. Hendrerit est mauris et phasellus massa. Augue mi mauris habitasse arcu, bibendum. Nunc, non tincidunt sed lectus sed montes, in felis nisl. “"
+            }
+        ]
+    },
+
+    "footer": {
+        "contacts": "CONTACTS",
+        "getInTouch": "Get in Touch",
+        "address": "Tashkent city, Olmazor district, Beruniy street, house 8",
+        "socialTitle": "Our Social Networks"
+    }
+}

@@ -1,0 +1,107 @@
+{
+    "aboutNav": "Biz haqimizda",
+    "servicesNav": "Xizmatlar",
+    "reviewsNav": "Fikrlar",
+    "contactsNav": "Aloqalar",
+    "hero": {
+        "description": {
+            "line1": "O‘zbekiston va butun dunyo bo‘ylab sayohatlar.",
+            "line2": "Umra, ekskursiyalar, dengiz bo‘yida dam olish, viza qo‘llab-quvvatlash va har qadamda g‘amxo‘rlik.",
+            "line3": "Shaxsiy yondashuv, 24/7 qo‘llab-quvvatlash, kafolatlangan sifat"
+        },
+        "learnMore": "Batafsil ma’lumot"
+    },
+    "about": {
+        "title": "Biz haqimizda",
+        "companyName": "SOFA MARVA CHORSU",
+        "description": {
+            "line1": "SOFA MARVA CHORSU agentligi — bu tajribali turmenedjerlar jamoasi,",
+            "line2": "har qanday vaziyatda yordam berishga tayyor. Biz har doim yoningizdamiz —",
+            "line3": "sayohatni tanlashdan boshlab qaytib kelishingizgacha. Bizning missiyamiz —",
+            "line4": "mijozlarimizga g‘amxo‘rlik, xavfsizlik va qulaylikni ta’minlashdir. Shaxsiy yondashuv",
+            "line5": "va moslashuvchanlik — ishimizning asosi."
+        },
+        "whyUs": "Nega aynan bizni tanlashadi:",
+        "benefits": {
+            "personalApproach": "Shaxsiy yondashuv",
+            "paymentOptions": "To‘lov uchun qulay shartlar",
+            "trustedPartners": "Ishonchli hamkorlar",
+            "peaceOfMind": "Sayohatning har bir bosqichida xotirjamlik kafolati"
+        }
+    },
+
+    "services": {
+        "topTitle": "BIZNING XIZMATLARIMIZ",
+        "mainTitle": "To‘liq yordam ko‘rsatish spektri",
+
+        "externalTourism": {
+            "title": "Tashqi turizm",
+            "point1": "Turkiya, BAA, Saudiya Arabistoni, Malayziya, Gruziya va boshqalar.",
+            "point2": "Dengiz bo‘yida dam olish, ekskursiya turlari"
+        },
+
+        "internalTourism": {
+            "title": "Ichki turizm",
+            "point1": "Samarqand, Buxoro, Xiva, tog‘lar va boshqalar.",
+            "point2": "Bir kunlik va ko‘p kunlik turlar"
+        },
+
+        "umrah": {
+            "title": "Umra",
+            "point1": "Makka va Madinaga hajni tashkil qilish",
+            "point2": "Koordinatsiya xizmatlari",
+            "point3": "Tur davomida 24/7 qo‘llab-quvvatlash"
+        },
+
+        "courses": {
+            "title": "Turoperatorlarni o‘qitish kurslari",
+            "point1": "Amaliy va nazariy o‘qitish",
+            "point2": "Onlayn/oflayn",
+            "point3": "Sertifikat beriladi"
+        },
+
+        "visa": {
+            "title": "Viza qo‘llab-quvvatlash",
+            "point1": "Hujjatlar bo‘yicha maslahatlar",
+            "point2": "Vizalarga ariza topshirish",
+            "point3": "Konsulliklarga yozilish"
+        },
+
+        "tickets": {
+            "title": "Aviabiletlar",
+            "point1": "Guruhli va individual bronlash",
+            "point2": "Optimal tariflarni qidirish",
+            "point3": "Moslashuvchan yo‘nalishlar"
+        }
+    },
+
+    "reviews": {
+        "topTitle": "FIKRLAR",
+        "mainTitle": "Biz bilan bog‘laning",
+        "showMore": "Ko‘proq ko‘rsatish",
+        "items": [
+            {
+                "name": "Ism Familiya",
+                "date": "YIL, OY",
+                "text": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie mauris ut dignissim montes, eget. Hendrerit est mauris et phasellus massa. Augue mi mauris habitasse arcu, bibendum. Nunc, non tincidunt sed lectus sed montes, in felis nisl. “"
+            },
+            {
+                "name": "Ism Familiya",
+                "date": "YIL, OY",
+                "text": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie mauris ut dignissim montes, eget. Hendrerit est mauris et phasellus massa. Augue mi mauris habitasse arcu, bibendum. Nunc, non tincidunt sed lectus sed montes, in felis nisl. “"
+            },
+            {
+                "name": "Ism Familiya",
+                "date": "YIL, OY",
+                "text": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie mauris ut dignissim montes, eget. Hendrerit est mauris et phasellus massa. Augue mi mauris habitasse arcu, bibendum. Nunc, non tincidunt sed lectus sed montes, in felis nisl. “"
+            }
+        ]
+    },
+
+    "footer": {
+        "contacts": "ALOQALAR",
+        "getInTouch": "Biz bilan bog‘laning",
+        "address": "Toshkent shahar, Olmazor tumani, Beruniy ko‘chasi, 8-uy",
+        "socialTitle": "Bizning ijtimoiy tarmoqlarimiz"
+    }
+}

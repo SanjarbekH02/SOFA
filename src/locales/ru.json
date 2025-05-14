@@ -1,0 +1,110 @@
+{
+  "aboutNav": "О нас",
+  "servicesNav": "Услуги",
+  "reviewsNav": "Отзывы",
+  "contactsNav": "Контакты",
+  "hero": {
+    "description": {
+      "line1": "Туры по Узбекистану и по всему миру.",
+      "line2": "Umra, экскурсии, отдых у моря, визовая поддержка и забота на каждом шагу.",
+      "line3": "Индивидуальный подход, поддержка 24/7, гарантированное качество"
+    },
+    "learnMore": "Узнать больше"
+  },
+
+    "about": {
+        "title": "О НАС",
+    "companyName": "SOFA MARVA CHORSU",
+    "description": {
+      "line1": "Агентство SOFA MARVA CHORSU — это команда опытных турменеджеров,",
+      "line2": "готовых помочь в любой ситуации. Мы всегда рядом — от момента выбора",
+      "line3": "тура до вашего возвращения. Наша миссия — это забота, безопасность",
+      "line4": "и комфорт клиентов. Индивидуальный подход и гибкость — основа нашей работы."
+    },
+    "whyUs": "Почему выбирают именно нас :",
+    "benefits": {
+      "personalApproach": "Индивидуальный подход",
+      "paymentOptions": "Удобные условия оплаты",
+      "trustedPartners": "Проверенные партнёры",
+      "peaceOfMind": "Гарантия спокойствия на каждом этапе поездки"
+    }
+    },
+
+  "services": {
+    "topTitle": "НАШИ УСЛУГИ",
+    "mainTitle": "Полный Спектр Помощи",
+
+    "externalTourism": {
+      "title": "Внешний туризм",
+      "point1": "Турция, ОАЭ, Саудовская Аравия, Малайзия, Грузия и др.",
+      "point2": "Пляжный отдых, экскурсионные туры"
+    },
+
+    "internalTourism": {
+      "title": "Внутренний туризм",
+      "point1": "Самарканд, Бухара, Хива, горы и др.",
+      "point2": "Однодневные и многодневные туры"
+    },
+
+    "umrah": {
+      "title": "Умра",
+      "point1": "Организация паломничества в Мекку и Медину",
+      "point2": "Координационные услуги",
+      "point3": "Поддержка 24/7 во время тура"
+    },
+
+    "courses": {
+      "title": "Курсы обучения туроператоров",
+      "point1": "Практическое и теоретическое обучение",
+      "point2": "Онлайн/оффлайн",
+      "point3": "Выдаётся сертификат"
+    },
+
+    "visa": {
+      "title": "Визовая поддержка",
+      "point1": "Консультации по документам",
+      "point2": "Подача на визы",
+      "point3": "Запись в консульства"
+    },
+
+    "tickets": {
+      "title": "Авиабилеты",
+      "point1": "Групповые и индивидуальные бронирования",
+      "point2": "Поиск оптимальных тарифов",
+      "point3": "Гибкие маршруты"
+    }
+  },
+
+  "reviews": {
+    "topTitle": "ОТЗЫВЫ",
+    "mainTitle": "Связаться С Нами",
+    "showMore": "Показать больше",
+    "items": [
+      {
+        "name": "Имя Фамилия",
+        "date": "ГОД, МЕСЯЦ",
+        "text": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie mauris ut dignissim montes, eget. Hendrerit est mauris et phasellus massa. Augue mi mauris habitasse arcu, bibendum. Nunc, non tincidunt sed lectus sed montes, in felis nisl. “"
+      },
+      {
+        "name": "Имя Фамилия",
+        "date": "ГОД, МЕСЯЦ",
+        "text": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie mauris ut dignissim montes, eget. Hendrerit est mauris et phasellus massa. Augue mi mauris habitasse arcu, bibendum. Nunc, non tincidunt sed lectus sed montes, in felis nisl. “"
+      },
+      {
+        "name": "Имя Фамилия",
+        "date": "ГОД, МЕСЯЦ",
+        "text": "“ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Molestie mauris ut dignissim montes, eget. Hendrerit est mauris et phasellus massa. Augue mi mauris habitasse arcu, bibendum. Nunc, non tincidunt sed lectus sed montes, in felis nisl. “"
+      }
+    ]
+  },
+
+   "footer": {
+    "contacts": "КОНТАКТЫ",
+    "getInTouch": "Связаться с Нами",
+    "address": "Тошкент шахар, Олмазор тумани, ул. Беруний, дом 8",
+    "socialTitle": "Наши Социальные Сети"
+  }
+
+  
+}
+

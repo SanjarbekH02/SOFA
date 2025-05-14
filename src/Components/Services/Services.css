@@ -1,0 +1,143 @@
+.services-section {
+    background-color: #730000;
+    padding: 60px 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.services-title-top {
+    color: #af8a5c;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.services-title {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.service-card {
+    background-color: white;
+    color: #333;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+.service-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #000;
+    text-align: center;
+}
+
+.service-card ul {
+    /* padding-left: 20px; */
+    list-style: none;
+}
+
+.service-card li {
+    margin-bottom: 8px;
+    font-size: 17px;
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+}
+
+.leaf1 {
+    width: 250px;
+    position: absolute;
+    top: -15%;
+    left: 0;
+}
+
+.leaf2 {
+    width: 250px;
+    position: absolute;
+    top: -8%;
+    right: 0;
+}
+
+.leaf4 {
+    width: 250px;
+    position: absolute;
+    bottom: -17%;
+    left: 0;
+}
+
+.leaf3 {
+    width: 250px;
+    position: absolute;
+    bottom: -18%;
+    right: 0;
+}
+
+@media (max-width: 500px) {
+    .services-section {
+        padding: 40px 10px;
+        padding-bottom: 80px;
+    }
+
+    .services-title-top {
+        font-size: 28px;
+    }
+
+    .services-title {
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+
+    .services-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .service-card {
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .service-card h3 {
+        font-size: 18px;
+    }
+
+    .service-card ul {
+        flex: 1;
+    }
+
+    .service-card li {
+        font-size: 15px;
+    }
+
+    .card-img {
+        width: 200px;
+        /* height: 120px; */
+        margin-right: 10px;
+    }
+
+    .leaf1, .leaf2, .leaf3, .leaf4 {
+        display: none;
+    }
+}

@@ -1,0 +1,305 @@
+.hero {
+    background-color: #680303;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    min-height: 100vh;
+    position: relative;
+}
+
+.navbar nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-links {
+    width: 70%;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    padding: 0;
+}
+
+.nav-links li {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.lang-btn {
+    width: 100px;
+    background-color: white;
+    color: #730000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.hero-content {
+    margin-top: 60px;
+}
+
+.logo {
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.hero-img {
+    width: 350px;
+}
+
+.subtitle {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 26px;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.learn-more-btn {
+    background-color: #FBFCFA;
+    color: #680303;
+    padding: 12px 24px;
+    border: none;
+    font-size: 35px;
+    font-weight: 700;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.leaf {
+    position: absolute;
+    width: 250px;
+    left: 0;
+    bottom: -25%;
+}
+
+.leaf-right {
+    width: 250px;
+    position: absolute;
+    right: 0;
+    bottom: -25%;
+}
+
+.language-select {
+    position: relative;
+    width: 100px;
+    font-family: Arial, sans-serif;
+}
+
+.selected {
+    width: 100px;
+    background-color: white;
+    color: #730000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100px;
+    background-color: white;
+    color: #730000;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+}
+
+.option {
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.flag-img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.option:hover {
+    background-color: #e0e0e0;
+}
+
+.menu-toggle {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+  display: none;
+  z-index: 10;
+}
+
+.menu-toggle::before,
+.menu-toggle::after,
+.menu-toggle div {
+  content: '';
+  position: absolute;
+  /* right: 10px; */
+  height: 3px;
+  width: 100%;
+  background-color: #000;
+  transition: 0.3s ease;
+}
+
+.menu-toggle div {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.menu-toggle::before {
+  top: 0;
+}
+
+.menu-toggle::after {
+  bottom: 0;
+}
+
+/* Menu ochilganda burger X ga aylansin */
+.menu-toggle.open::before {
+  transform: rotate(45deg);
+  top: 40%;
+}
+
+.menu-toggle.open::after {
+  transform: rotate(-45deg);
+  bottom: 50%;
+}
+
+.menu-toggle.open div {
+  opacity: 0;
+}
+
+/* nav-links toggle uchun */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 500px) {
+    .container{
+        padding: 0 10px;
+    }
+    .hero {
+        padding: 10px;
+        text-align: left;
+    }
+
+    .navbar{
+        flex-direction: row-reverse;
+    }
+
+    .navbar nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background: white;
+    flex-direction: column;
+    width: 100%;
+    transform: translateY(-200%);
+    opacity: 0;
+    pointer-events: none;
+  }
+
+  .nav-links.open {
+    transform: translateY(0);
+    opacity: 1;
+    pointer-events: all;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        font-size: 24px;
+        background-color: #FBFCFA;
+        color: #680303;
+    }
+
+    .lang-btn {
+        width: 80px;
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .hero-content {
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .logo {
+        height: 60px;
+        margin-bottom: 10px;
+    }
+
+    .hero-img {
+        width: 250px;
+    }
+
+    .description {
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    .learn-more-btn {
+        font-size: 20px;
+        padding: 10px 20px;
+    }
+
+    .leaf, .leaf-right {
+        width: 150px;
+        bottom: -20%;
+    }
+
+    .language-select {
+        width: 80px;
+    }
+
+    .selected, .options {
+        width: 80px;
+        padding: 6px 12px;
+    }
+
+    .option {
+        padding: 8px;
+    }
+
+    .flag-img {
+        width: 15px;
+    }
+}
